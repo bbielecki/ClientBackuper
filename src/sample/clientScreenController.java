@@ -82,6 +82,7 @@ public class clientScreenController implements Initializable{
     public File getChosenFile(){
         return chosenFiles.remove(0);
     }
+    public int getNumberOfChosenFiles(){return chosenFiles.size();}
 
     private int iNumber = 1;
 
